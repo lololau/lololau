@@ -1,38 +1,42 @@
 .App {
+  margin: auto;
+  padding: 15% 5%;
+  justify-content: center;
+  text-align: left;
+  background-color: #ffa07a;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "position-image" "content";
+}
+
+.position-image {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .title {
+  font-family: "Heebo", sans-serif;
+  font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .Iam {
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.App p {
+  font-size: 13px;
+  font-weight: lighter;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App p .stack {
+  font-weight: 500;
+}
+
+.App .icons a {
+  display: inline-block;
+  padding-right: 10px;
 }
