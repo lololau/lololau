@@ -15,8 +15,8 @@ function App() {
           <h1 className="title">Hi.</h1>
           <h3 className="Iam">I am Lauriane.</h3>
           <p>
-            I have a degree in general engineering and I am recently self-taught
-            developer. I am an enthusiastic and persevering person.{" "}
+            Holder of a general engineering degree, enthusiastic and persevering
+            person, I am recently a self-taught developer.{" "}
             <FontAwesomeIcon icon={faSmileBeam} color="black" />
           </p>
           <p>
