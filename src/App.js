@@ -15,12 +15,12 @@ function App() {
           <h1 className="title">Hi.</h1>
           <h3 className="Iam">I am Lauriane.</h3>
           <p>
-            Holder of a general engineering degree, enthusiastic and persevering
-            person, I am recently a self-taught developer.{" "}
+          Holder of a general engineering degree, enthusiastic and persevering
+          person, I am a self-taught developer.{" "}
             <FontAwesomeIcon icon={faSmileBeam} color="black" />
           </p>
           <p>
-            I am looking for an internship as a web developer -{" "}
+          Curently working at Road-B-Score since June 2021 -{" "}
             <span className="stack">Node.js</span> -{" "}
             <span className="stack">React</span> -
             <span className="stack">Typescript</span>.
